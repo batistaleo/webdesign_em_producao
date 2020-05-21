@@ -1,83 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/Boot.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/Boot.css">
-
-    <link rel="stylesheet" href="assets/styles/icons.css">
+    <link rel="stylesheet" href="assets/styles/icons.css" />
     <title>WDP: ícones, links e botões</title>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-        *{
-            font-family: 'Open Sans', sans-serif;
-        }
+      * {
+        font-family: 'Open Sans', sans-serif;
+      }
 
-        .box{
-            display: flex;
-            position: absolute;
-            left:0;
-            top:0;
-            width:100%;
-            height:100%;
-        }
+      .box {
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
 
-        .box_container{
-            width: 600px;
-            margin: auto;
-            padding: 20px;
-            background: #fbfbfb;
-        }
-
+      .box_container {
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: #fbfbfb;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="box">
-        <div class="box_container">
+      <div class="box_container">
+        <h1>Ícones</h1>
+        <p class="icon-facebook">
+          <img
+            class="img"
+            src="imagens/facebook.png"
+            alt="icon-facebook"
+          />Facebook
+        </p>
 
-            <h1>Ícones</h1>
-                <p class="icon-facebook"> <img class="img" src="imagens/facebook.png" alt="icon-facebook">Facebook</p>
+        <p class="icon-Instagram">
+          <img
+            class="icon-Instagram"
+            src="imagens/instagram.png"
+            alt="icon-instagram"
+          />Instagram
+        </p>
 
-                <p class="icon-Instagram"> <img class="icon-Instagram" src="imagens/instagram.png" alt="icon-instagram">Instagram</p>
+        <p class="icon-search">
+          <img src="imagens/search.png" alt="icon-search" />Pesquisar
+        </p>
 
-                <p class="icon-search"> <img src="imagens/search.png" alt="icon-search">Pesquisar</p>
+        <h1>Links</h1>
+        <p><a href="#">link 1</a></p>
+        <p><a href="#">link 2</a></p>
 
-            <h1>Links</h1>
-                <p><a href="#">link 1</a></p>
-                <p><a href="#">link 2</a></p>
+        <h1>Botões</h1>
+        <a class="btn radius" href="#">Link Button</a>
 
-            <h1>Botões</h1>
-                <a class="btn radius" href="#">Link Button</a>
+        <button class="btn radius transition">Button</button>
 
-                <button class="btn radius transition">Button</button>
+        <span class="btn radius transition">
+          <img src="imagens/search.png" alt="" /> Span Button</span
+        >
 
-                <span class="btn radius transition"> <img src="imagens/search.png" alt=""> Span Button</span>
+        <p>Tmanhos</p>
+        <a class="btn radius btn-small" href="#">Link Button</a>
 
-                <p>Tmanhos</p>
-                <a class="btn radius btn-small" href="#">Link Button</a>
+        <a class="btn radius" href="#">Link Button</a>
 
-                <a class="btn radius" href="#">Link Button</a>
+        <a class="btn radius btn-big" href="#">Link Button</a>
 
-                <a class="btn radius btn-big" href="#">Link Button</a>
+        <p>Cores</p>
 
-                <p>Cores</p>
+        <button class="btn btn-green radius transition">Button</button>
 
-                <button class="btn btn-green radius transition">Button</button>
+        <button class="btn btn-green-out radius transition">Button</button>
 
-                <button class="btn btn-green-out radius transition">Button</button>
+        <button class="btn btn-blue radius transition">Button</button>
 
-                <button class="btn btn-blue radius transition">Button</button>
+        <button class="btn btn-blue-out radius transition">Button</button>
 
-                <button class="btn btn-blue-out radius transition">Button</button>
+        <button class="btn btn-yellow radius transition">Button</button>
 
+        <button class="btn btn-yellow-out radius transition">Button</button>
 
-        </div>
+        <button class="btn btn-red radius transition">Button</button>
+
+        <button class="btn btn-red-out radius transition">Button</button>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
